@@ -4,7 +4,7 @@ var webpack = require('webpack')
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, '../demo/target/classes/static/dist'),
+    path: path.resolve(__dirname, '../lesson3/target/classes/static/dist'),
     publicPath: '../../SpringBoot-/lesson2/lesson2/target/classes/static/dist/',
     filename: 'build.js'
   },
